@@ -387,6 +387,9 @@ WALK_TINY = ClipCollection(
          'CMU_069_32',
          'CMU_069_33'))
 
+WALK_SINGLE = ClipCollection(
+    ids=('CMU_016_22',))
+
 # Subset of about 2 minutes of walking/running/jumping behaviors.
 RUN_JUMP_TINY = ClipCollection(
     ids=('CMU_009_01',
@@ -1282,6 +1285,7 @@ ALL = ClipCollection(
 
 CMU_SUBSETS_DICT = dict(
     walk_tiny=WALK_TINY,
+    walk_single=WALK_SINGLE,
     run_jump_tiny=RUN_JUMP_TINY,
     get_up=GET_UP,
     locomotion_small=LOCOMOTION_SMALL,
